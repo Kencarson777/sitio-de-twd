@@ -1,0 +1,579 @@
+h1 {
+font-family: 'PT Serif', serif;
+font-size: 45px;
+color: #920606;
+border-bottom: 2px solid #920606;
+padding-bottom: 10px; 
+}
+
+body{
+background-color: black;    
+color: white;
+font-family: 'Lora', serif;
+
+
+.intro {
+max-width: 1000px;
+margin: 0 auto 60px;
+}
+
+.intro .imagen-principal {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0 auto 20px;
+}
+
+.intro .subtitulo {
+font-size: 30px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+
+.texto-intro p {
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 15px;
+}
+
+.sinopsis {
+max-width: 1000px;
+margin: 0 auto 60px;
+color: white;
+}
+
+.sinopsis .hola {
+font-size: 30px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+
+.Rick-Grimes p {
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 15px;
+}
+
+
+.info-rick {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+align-items: flex-start;
+margin-top: 30px;
+}
+
+.imagen-principal2 {
+flex: 1 1 400px;
+max-width: 100%;
+height: auto;
+display: block;
+}
+
+.texto-rick {
+flex: 1 1 400px;
+font-size: 16px;
+line-height: 1.5;
+}
+
+
+.titulo2 {
+display: block;
+width: 100%;
+text-align: center;
+margin: 40px auto 20px; 
+font-size: 30px;
+margin-top: 60px;
+}
+
+
+.familia {
+display: block;
+width: 100%;
+text-align: center;
+margin-bottom: 30px;     
+font-weight: 100;       
+font-size: 29px;         
+}
+
+
+
+.Grimes {
+display: flex;
+justify-content: space-evenly;
+align-items: flex-start;   
+flex-wrap: wrap;
+max-width: 1200px;
+margin: 40px auto;
+gap: 20px;
+}
+
+.personaje {
+flex: 0 0 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.personaje img {
+width: 100%;
+max-width: 300px;
+height: 350px;            
+object-fit: cover;       
+display: block;
+margin-bottom: 10px;
+}
+
+.principales2 {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+
+.daryl-carol {
+max-width: 1050px;
+margin: 0 auto;
+text-align: center;
+}
+
+.img-daryl {
+max-width: 100%;
+height: auto;
+}
+
+.img-glenn {
+max-width: 100%;
+height: auto;
+margin-top: 70px;
+}
+
+.glenn {
+max-width: 1050px;
+margin: 0 auto;
+text-align: center;
+}
+
+.texto-glenn {
+font-size: 18px;
+margin-top: 10px;
+}
+
+.fila-temporadas {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-bottom: 40px;
+}
+
+.fila-temporadas.centrar {
+justify-content: center;
+gap: 40px;
+}
+
+.temporada7, .temporada8, .temporada9,
+.temporada10, .temporada11 {
+background-color: #111;
+color: white;
+padding: 15px;
+width: 300px;
+border-radius: 8px;
+margin-bottom: 20px;
+}
+
+.img-7, .img-8, .img-9, .img-10, .img-11 {
+width: 100%;
+height: auto;
+margin-bottom: 10px;
+border-radius: 4px;
+}
+
+.tempo7, .tempo8, .tempo9, .tempo10, .tempo11 {
+font-size: 14px;
+margin-bottom: 5px;
+list-style-type: square;
+padding-left: 5px;
+}
+
+
+.temporadas {
+display: flex;
+flex-wrap: wrap;
+justify-content: center; 
+gap: 20px; 
+padding: 20px;
+}
+
+.temporada {
+width: 300px; 
+background-color: #111;
+border-radius: 6px;
+padding: 10px;
+box-sizing: border-box;
+color: white;
+text-align: center;
+}
+
+
+.temporada img {
+width: 100%;
+height: auto;
+display: block;
+margin-bottom: 10px;
+}
+
+.temporada ul {
+list-style-position: inside;
+text-align: left;
+margin: 0;
+padding: 0;
+}
+
+.temporada li {
+font-size: 16px;
+margin-bottom: 4px;
+}
+
+.temporada h2 {
+font-size: 20px;
+margin-bottom: 8px;
+}
+
+.prensa{
+width: 1070px;
+}
+
+
+.evento{
+font-size: 18px;
+max-width: 1070px;
+max-width: 1070px;
+margin-left: 370px;
+}
+
+.evento2{
+font-size: 18px;
+max-width: 1070px;
+max-width: 1070px;
+margin-left: 370px;
+margin-top: 100px;
+}
+
+.evento3{
+font-size: 18px;
+max-width: 1070px;
+max-width: 1070px;
+margin-left: 370px;
+margin-top: 100px;
+}
+
+.evento4{
+font-size: 18px;
+max-width: 1070px;
+max-width: 1070px;
+margin-left: 370px;
+margin-top: 100px;
+}
+
+.carl{
+width: 1070px;
+}
+
+.caminantes{
+width: 1070px;
+}
+
+
+.evento5{
+font-size: 18px;
+max-width: 1070px;
+max-width: 1070px;
+margin-left: 370px;
+margin-top: 100px;
+}
+
+.evento6{
+font-size: 18px;
+max-width: 1070px;
+max-width: 1070px;
+margin-left: 370px;
+margin-top: 100px;
+}
+.evento7{
+font-size: 18px;
+max-width: 1070px;
+max-width: 1070px;
+margin-left: 370px;
+margin-top: 100px;
+}
+.evento8{
+font-size: 18px;
+max-width: 1070px;
+max-width: 1070px;
+margin-left: 370px;
+margin-top: 100px;
+}
+
+.evento9{
+font-size: 18px;
+max-width: 1070px;
+max-width: 1070px;
+margin-left: 370px;
+margin-top: 100px;
+}
+
+.evento10{
+font-size: 18px;
+max-width: 1070px;
+max-width: 1070px;
+margin-left: 370px;
+margin-top: 100px;
+}
+
+.zombie{
+width: 1070px;
+}
+
+.deadcity{
+width: 1070px;
+}
+
+.tales{
+width: 1070px;
+}
+
+.dixon{
+width: 1070px;
+}
+
+.beyond{
+width: 1070px;
+}
+
+.fear{
+width: 1070px;
+}
+
+.lives{
+width: 1070px;
+}
+
+}
+nav ul{
+list-style: none;
+padding: 0;
+} 
+
+nav a {
+transition: color 0.3s ease;
+}
+nav a:hover {
+color: #ff0055;
+}
+
+.site-header {
+background-color: #111;
+padding: 10px 20px;
+}
+
+.contenedor-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.menu-icono {
+font-size: 30px;
+color: white;
+cursor: pointer;
+border: 2px solid white;
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+
+#toggle-menu {
+display: none;
+}
+
+
+.menu-links {
+display: none;
+position: absolute;
+top: 70px;
+right: 20px;
+background-color: #000000b9;
+list-style: none;
+padding: 0;
+border-radius: 8px;
+width: 230px;
+}
+
+.menu-links li a {
+display: block;
+padding: 12px;
+color: white;
+text-decoration: none;
+border-bottom: 1px solid #444;
+}
+
+.menu-links li a:hover {
+background-color: #555;
+}
+
+
+#toggle-menu:checked + .menu-icono + .menu-links {
+display: block;
+}
+
+.site-header {
+background-color: black; 
+padding: 10px 20px;
+}
+
+footer {
+background-color: #000000; 
+padding: 15px 0;
+text-align: center;
+font-family: 'Lora', serif;
+color: white;
+}
+
+footer p {
+margin-bottom: 10px;
+font-size: 16px;
+color: white;
+}
+
+.iconos-redes {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.iconos-redes img {
+width: 30px;
+height: 30px;
+transition: transform 0.2s;
+}
+
+.iconos-redes img:hover {
+transform: scale(1.1);
+}
+
+.pagina-temporadas .header-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.pagina-eventos .header-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.pagina-contacto .header-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.audio-curiosidades {
+text-align: center;
+margin: 15px 0;
+}
+.audio-curiosidades iframe {
+width: 250px;
+height: 80px;
+}
+
+.Formulario {
+width: 80%;          
+max-width: 600px;   
+margin: 20px auto;   
+}
+
+.Formulario input,
+.Formulario textarea,
+.Formulario button {
+display: block;       
+width: 100%;      
+margin-bottom: 10px;  
+}
+
+.plataformas {
+text-align: center;
+color: white;
+ margin-top: 30px;
+}
+
+.botones-plataformas a {
+display: inline-block;
+margin: 8px;
+padding: 8px 16px;
+color: white;
+border: 1px solid white;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.botones-plataformas a:hover {
+background: white;
+color: black;
+}
+
+.no-click {
+text-align: center;
+margin-top: 40px;
+}
+
+.no-click a {
+display: inline-block;
+padding: 10px 20px;
+border: 2px solid rgba(255, 39, 39, 0.479);
+color: rgb(163, 1, 1);
+text-decoration: none;
+font-weight: bold;
+border-radius: 6px;
+transition: all 0.2s;
+}
+
+.no-click a:hover {
+background-color: red;
+color: black;
+}
+
+.pagina-error {
+background-color: black;
+text-align: center;
+color: white;
+padding: 50px 20px;
+font-size: 20px; 
+font-family: sans-serif;
+}
+
+.pagina-error h2 {
+font-size: 32px; 
+}
+
+.pagina-error img {
+display: block;
+margin: 20px auto;
+max-width: 100%;
+height: auto;
+}
+
+.pagina-error a {
+color: red;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+}
+
